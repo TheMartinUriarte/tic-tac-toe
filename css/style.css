@@ -1,5 +1,6 @@
-#board {
-  margin-top: 10px;
+body {
+  /*background-color: red;*/
+  /*pre-flight check*/
 }
 
 .box {
@@ -7,7 +8,55 @@
   height: 150px;
 }
 
-body {
-  /*background-color: red;*/
-  /*pre-flight check*/
+.col-md-4 {
+  border: 1px solid black;
+}
+
+.col-md-6 {
+  border: 1px solid black;
+}
+
+.col-md-12 {
+  border: 1px solid black;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.row {
+  border: 1px solid black;
+}
+
+.row1:after {
+  float: left;
+  display: inline-block;
+}
+
+.row2:after {
+  /*float: left;*/
+}
+
+.row3:after {
+  /*float: left;*/
+}
+
+.resetBtn {
+  margin: 2em auto 0 auto 2em;
+  border: 1px solid black;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#board {
+  margin-top: 10px;
+  float: bottom;
+  display: inline-block;
 }
