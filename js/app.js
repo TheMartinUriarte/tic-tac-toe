@@ -5,4 +5,5 @@ $(document).ready(function() {
 
 });
 
-alert("Does this work??");
+// alert("yes it does!!");
+//Pre-flight check
