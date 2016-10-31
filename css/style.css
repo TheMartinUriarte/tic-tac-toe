@@ -3,7 +3,7 @@ body {
   /*pre-flight check*/
 }
 
-.box {
+.box { /*DF*/ /*DF stands for Default*/
   border: 1px solid black;
   height: 150px;
 }
@@ -28,18 +28,18 @@ body {
   border: 1px solid black;
 }
 
-.row1:after {
+/*.row1:after {
   float: left;
   display: inline-block;
 }
 
 .row2:after {
   /*float: left;*/
-}
+/*}*/
 
-.row3:after {
+/*.row3:after {
   /*float: left;*/
-}
+/*}
 
 .resetBtn {
   margin: 2em auto 0 auto 2em;
@@ -53,10 +53,8 @@ body {
     content: " ";
     clear: both;
     height: 0;
-}
+}*/
 
 #board {
   margin-top: 10px;
-  float: bottom;
-  display: inline-block;
 }
