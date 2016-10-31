@@ -48,9 +48,9 @@ DF = Default. The code given to me at the start of the assignment.
 
         <div class="col-md-12">  <!-- DF -->
 
-          <h1>Tic Tac Toe</h1> <!-- DF -->
+          <h1>Tic-Tac-Toe</h1> <!-- DF -->
 
-          <hr> <!-- DF -->
+          <!-- <hr> DF -->
 
         </div> <!-- DF -->
 
@@ -66,41 +66,45 @@ DF = Default. The code given to me at the start of the assignment.
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row1">
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="lawfulGood">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="neutralGood">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="chaoticGood">a</div>
 
           </div>
 
           <div class="row2">
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="lawfulNeutral">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="trueNeutral">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="chaoticNeutral">a</div>
 
           </div>
 
           <div class="row3">
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="lawfulEvil">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="neutralEvil">a</div>
 
-            <div class="col-md-4 box">a</div>
+            <div class="col-md-4" id="chaoticEvil">a</div>
 
           </div>
 
-        </div>
-
-        <button type="button" class="btn btn-danger btn-lg">Reset<span class="glyphicon glyphicon-refresh"></span></button>
-
       </div>
 
+      <div class="row4">
 
+        <div class="col-md-offset-4 col-md-4 col-md-offset-4">
+        <!-- button tag serves to create the button. Classes. Btn is to address that it's a button. Button danger assigns the color red to the button. Btn-lg makes it a large button. Span class glyphicon adds a refresh icon into the button for asthetics.-->
+          <button type="button" class="btn btn-danger btn-lg" onclick="window.location.reload()">Reset  <span class="glyphicon glyphicon-refresh"></span></button>
+        <!-- found through StackOverflow that you can add the function of the button within the HTML Element Tag. -->
+        </div>
+
+      </div>
 
     </div>
 

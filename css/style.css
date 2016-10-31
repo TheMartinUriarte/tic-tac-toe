@@ -8,39 +8,30 @@ This is to serve as a point of reference for me when I return and am required to
 
 LEGEND:
 DF = Default. The code given to me at the start of the assignment.*/
+html {
 
+}
 
 body {
   /*background-color: red;*/
   /*pre-flight check*/
-  background-image:"/Users/MartinUriarte/wdi/wip/tic-tac-toe/Assets/etchASketch.jpg"
+  background: url("/Users/MartinUriarte/wdi/wip/tic-tac-toe/Assets/etchASketch.jpg") no-repeat center center fixed;
+  background-size: 100% 122%;
+  background-position-y: center;
 }
 
-.box { /*DF*/ /*DF stands for Default*/
-  border: 1px solid black;
-  height: 150px;
+h1 {
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  color: rgba(209,144,61,1);
 }
 
-.col-md-4 {
-  border: 1px solid black;
+.btn {
+  /*position: center;*/
+  /*right: 52%;
+  left: 48%;*/
+  /*margin-top: 20px;*/
 }
-
-.col-md-6 {
-  border: 1px solid black;
-}
-
-.col-md-12 {
-  border: 1px solid black;
-}
-
-.container {
-  border: 1px solid black;
-}
-
-.row {
-  border: 1px solid black;
-}
-
 /*.row1:after {
   float: left;
   display: inline-block;
@@ -51,15 +42,15 @@ body {
 /*}*/
 
 /*.row3:after {
-  /*float: left;*/
-/*}
+  /*float: left;
+}*/
 
-.resetBtn {
-  margin: 2em auto 0 auto 2em;
-  border: 1px solid black;
+.row4 {
+  /*border: 1px solid black;*/
+  margin-top: 43%;
+  padding-left: 17%;
 }
-
-.clearfix:after {
+/*.clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -71,3 +62,50 @@ body {
 #board {
   margin-top: 10px;
 }
+
+#lawfulGood {
+  height: 150px;
+  border-right: 3px solid #A9A9A9;
+}
+
+#neutralGood {
+  height: 150px;
+}
+
+#chaoticGood {
+  height: 150px;
+  border-left: 3px solid #A9A9A9;
+}
+
+#lawfulNeutral {
+  height: 150px;
+  border-top: 3px solid #A9A9A9;
+  border-bottom: 3px solid #A9A9A9;
+}
+
+#trueNeutral {
+  height: 150px;
+  border: 3px solid #A9A9A9;
+}
+
+#chaoticNeutral {
+  height: 150px;
+  border-top: 3px solid #A9A9A9;
+  border-bottom: 3px solid #A9A9A9;
+}
+
+#lawfulEvil {
+  height: 150px;
+  border-right: 3px solid #A9A9A9;
+}
+
+#neutralEvil {
+  height: 150px;
+}
+
+#chaoticEvil {
+  height: 150px;
+  border-left: 3px solid #A9A9A9;
+}
+
+/*All lines to look crooked, like an etch a sketch*/
