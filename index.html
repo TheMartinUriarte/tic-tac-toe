@@ -1,6 +1,20 @@
-<!DOCTYPE HTML> <!-- Default reffered to as DF from here on out -->
-<html> <!-- DF -->
+<!DOCTYPE HTML>
+<html>
+
+<!-- This is a weekend project assigned by the instructors at General Assembly's Web Development Immersive course in San Francisco.
+
+This project is to have us, the students, create a Tic-Tac-Toe game with the use of Bootstrap and present it to the class on Monday 10/31/16.
+
+Since I am currently unfamiliar with Bootstrap, you will find notations all throughout the code.
+
+This is to serve as a point of reference for me when I return and am required to explain my work to my fellow classmates or instructors.
+
+LEGEND:
+DF = Default. The code given to me at the start of the assignment.
+
+-->
   <head> <!-- DF -->
+
     <meta charset="utf-8">  <!-- DF -->
 
     <!-- set viewport to device width to allow responsiveness --> <!-- DF -->
@@ -15,7 +29,7 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8" crossorigin="anonymous"></script>  <!-- DF -->
 
-    <!-- link to custom javascript file (always require after external JS libraries) --> //DF
+    <!-- link to custom javascript file (always require after external JS libraries) --> <!-- DF -->
 
     <script src="js/app.js"></script> <!-- DF -->
 
@@ -27,13 +41,21 @@
   </head> <!-- DF -->
 
   <body> <!-- DF -->
+
     <div class="container"> <!-- DF -->
+
       <div class="row text-center"> <!-- DF -->
+
         <div class="col-md-12">  <!-- DF -->
+
           <h1>Tic Tac Toe</h1> <!-- DF -->
+
           <hr> <!-- DF -->
+
         </div> <!-- DF -->
+
       </div> <!-- DF -->
+
       <div class="row">  <!-- DF -->
 
         <!-- a column represents our game board -->
@@ -43,31 +65,45 @@
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row1">
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
           </div>
 
           <div class="row2">
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
           </div>
 
           <div class="row3">
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
             <div class="col-md-4 box">a</div>
+
           </div>
 
         </div>
 
+        <button type="button" class="btn btn-danger btn-lg">Reset<span class="glyphicon glyphicon-refresh"></span></button>
+
       </div>
 
-      <form>
-        <input type="Reset">
-      </form>
+
 
     </div>
+
   </body>
+
 </html>
